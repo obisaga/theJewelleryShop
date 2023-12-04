@@ -23,20 +23,20 @@ function App() {
       <Routes>
 
      
-          <Route path="/home" element={<Homepage />} />
-          <Route path="/shop" element={<Shop />} />
-          <Route path="/products/:id" element={<SingleProduct />}/>
-          <Route path="/shop/:filter" element={<ShopFilter />} />
-          <Route path="/contact" element={<Contact />} /> 
-          <Route path="/login" element={<Login />}/>
-          <Route path="/register" element={<Register />}/>
+          <Route path="/theJewelleryShop/home" element={<Homepage />} />
+          <Route path="/theJewelleryShop/shop" element={<Shop />} />
+          <Route path="/theJewelleryShop/products/:id" element={<SingleProduct />}/>
+          <Route path="/theJewelleryShop/shop/:filter" element={<ShopFilter />} />
+          <Route path="/theJewelleryShop/contact" element={<Contact />} /> 
+          <Route path="/theJewelleryShop/login" element={<Login />}/>
+          <Route path="/theJewelleryShop/register" element={<Register />}/>
           {/* <Route path="/notfound" element={<NotFound />} /> */}
-          <Route path="/newsletter" element={<Newsletter />} /> 
+          <Route path="/theJewelleryShop/newsletter" element={<Newsletter />} /> 
           {/* <Route path='*' element={<Navigate to={"/home"} />} /> */}
     
-          <Route path="/account" element={<AccountSettings />} />
-          <Route path="/cart" element={<Cart />} />
-          <Route path="/checkout" element={<Checkout />} /> 
+          <Route path="/theJewelleryShop/account" element={<AccountSettings />} />
+          <Route path="/theJewelleryShop/cart" element={<Cart />} />
+          <Route path="/theJewelleryShop/checkout" element={<Checkout />} /> 
      
       </Routes>
     
