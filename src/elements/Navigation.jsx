@@ -97,7 +97,7 @@ const Navigation = (props) => {
             </NavLink>
           </span>
           <span className="logo">
-            <NavLink to="/home" style={{ textDecoration: "none", color: "black" }}>The Jewellery Shop</NavLink>
+            <NavLink to="/theJewelleryShop/" style={{ textDecoration: "none", color: "black" }}>The Jewellery Shop</NavLink>
           </span>
           <span className="user-cart-icons">
 
@@ -148,7 +148,7 @@ const Navigation = (props) => {
 
       <div className="bottomNav">
         <div className="links">
-          <NavLink to="/home">HOME</NavLink>
+          <NavLink to="/theJewelleryShop/">HOME</NavLink>
           <div className="dropdown">
             <NavLink to="/shop" className="dropbtn">SHOP</NavLink>
             <div className="dropdown-content">
@@ -171,7 +171,7 @@ const Navigation = (props) => {
         ABOUT US
       </RouterLink> */}
 
-<RouterLink to="/home" className="scrollLink" onClick={scrollToAboutSection} >ABOUT US</RouterLink>
+<RouterLink to="/theJewelleryShop/" className="scrollLink" onClick={scrollToAboutSection} >ABOUT US</RouterLink>
 
           <NavLink to="/contact">CONTACT</NavLink>
           
