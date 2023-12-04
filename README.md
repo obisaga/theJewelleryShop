@@ -1,5 +1,7 @@
 Front-end + Back-end Project of an E-commerce Website
 
+https://obisaga.github.io/theJewelleryShop/
+
 https://the-jewellery-shop.onrender.com
 
 MERN Stack
