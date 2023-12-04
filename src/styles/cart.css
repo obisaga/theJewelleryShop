@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;1,400;1,500&display=swap');
+
+ 
+.cartContainerComponent{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: #F3EEEE;
+   margin-left: 10%;
+   margin-right: 10%;
+}  
+
+.cartContainerComponent p{
+   font-family: "Montserrat";
+   font-size: 1em;
+}
+
+ .cart button:hover{
+    background-color: rgb(221, 192, 192);
+ }
+
+ .cart{
+   display:flex;
+   justify-content: center;
+   align-content:center;
+   width:100%;
+   
+
+}
+
+.cart img{
+  width: 4rem;
+  height:5rem;
+  padding-top:1rem;
+  padding-left:1rem;
+  margin-left: 0.5em;
+  margin-right: 2em;
+}
+ .continueBtnTop{
+    border:none;
+    background-color: white;
+    margin-right: 80%;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    margin-left: 5em;
+    font-size: 0.9em;
+ }
+
+ .continueBtnTop:hover{
+   background-color: white;
+   text-decoration: underline;
+ }
+
+ 
+
+ .productTitle {
+   margin-left: 1.5em;
+   margin-right: 0.5em;
+   padding-top: 2.3em;
+   width: 25rem;
+   font-weight: 600 !important;
+ }
+
+.productColor {
+   margin-left: 0.8em;
+   margin-right: 0.8em;
+   padding-top: 2.3em;
+   width: 10rem;
+}
+.productPrice {
+   margin-left: 0.5em;
+   margin-right: 2.5em;
+   padding-top: 2.3em;
+   width:5rem;
+}
+
+ .cartQuantityButtons{
+   padding-top:1rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .cartQuantityButtons p{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 1em;
+    font-size:0.8rem;
+    width:4rem;
+ }
+
+ .adjustmentBtn {
+    width:2.5rem;
+    height: 2.5rem
+ }
+
+ 
+ .deleteBtn {
+   width: 6rem;
+    height: 3rem;
+    margin-left: 3rem;
+    margin-right: 1rem;
+
+
+ }
+
+  
+
+
+ .total-price{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 19%;
+    margin-top: 3%;
+    gap:1rem;
+    font-weight: 400;
+    font-size: 1.5em;
+ }
+
+ .bottomButtons{
+    display:flex;
+    justify-content: right;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    margin-left: 5em;
+    margin-right: 5em;
+    font-size: 0.9em;
+ }
+
+
+ .proceedBtn{
+    border:none;
+    background-color: white;
+    font-size: 0.9em;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    margin-left: 5em;
+    margin-right: 5em; 
+ }
+
+ .proceedBtn:hover{
+    background-color: white;
+    text-decoration: underline;
+ }
+
+ .startShoppingBtn{
+    border:none;
+    background-color: white;
+    margin-right: 80%;
+    margin-bottom: 5rem;
+ }
+ .startShoppingBtn:hover{
+    background-color: white;
+   text-decoration: underline;
+   }
+
+   .count{
+      font-size: 0.8rem;
+      color:white;
+      /* background-image: url("https://i.ibb.co/5c8bwX0/circle-fill-svgrepo-com.png"); */
+      /* background-image: no-repeat center/80% url("https://upload.wikimedia.org/wikipedia/commons/c/c0/Location_dot_black.svg"); */
+      background: no-repeat center url("https://raw.githubusercontent.com/obisaga/ecommerceImages/main/circle-fill-svgrepo-com.png");
+     padding: 1.2rem 1.2rem 1.2rem 1.2rem;
+      background-size: 50%, 50%, 20%;;
+   }
+   /* .pi pi-circle-fill{
+     color:aqua !important;
+   } */
+
+   .cartEmptyMsg{
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      font-size: 1.5em;
+      padding-bottom: 20%;
+   }

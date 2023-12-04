@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;1,400;1,500;800&display=swap');
+
+
+div .form-container{
+  background-color: #F3EEEE;
+  font-family: 'Montserrat';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+  margin:2rem 10rem 7rem 10rem;
+  padding: 2em 2em;
+}
+
+.loginForm p{
+  font-family: 'Playfair Display';
+  /* text-decoration: 1px overline; */
+  -webkit-text-stroke: 0.5px #6D6A64;
+
+
+ font-size: 2rem;
+ font-weight: 800;
+  color:#A6A093;
+  padding: 10px;
+}
+
+.loginForm{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.loginLabel{
+  padding-bottom: 0.8em;
+}
+
+.login-text-input{
+  width:30rem;
+  text-align: center;
+  font-size: 0.8em;
+  padding: 0.5em;
+}
+
+input{
+  border-radius: 2%;
+}
+
+.loginButton{
+  background-color:white;
+  margin-top: 2em;
+  font-size: 0.8em;
+  padding: 0.5em;
+  border-radius: 10%;
+  box-shadow: 1px 2px black;
+
+}
+
+.loginButton:hover{
+  background-color: #A6A093;
+}
+
+.pLoginRegister{
+  font-size: 0.8em;
+}
+
+
+.pLoginRegister a{
+  font-size: 1.2em !important;
+  color: red;
+}
+
+.pLoginRegister a:hover{
+  text-decoration: underline;
+}
+
+
