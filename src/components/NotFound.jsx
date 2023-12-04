@@ -8,7 +8,7 @@ const NotFound = () => {
     <div>
       <h1>Oops! You seem to be lost 🙈</h1>
       <p>Here is a helpful link:</p>
-      <Link to="/home">HOME</Link>
+      <Link to="/theJewelleryShop/">HOME</Link>
     </div>
   );
 }

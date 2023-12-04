@@ -125,7 +125,7 @@ const Navigation = (props) => {
                       <MDBBtn color='secondary' onClick={handleLogout}>
                         Nevermind
                       </MDBBtn>
-                      <NavLink to="/home"><MDBBtn onClick={confirmLogout}>Yes</MDBBtn></NavLink>
+                      <NavLink to="/theJewelleryShop/"><MDBBtn onClick={confirmLogout}>Yes</MDBBtn></NavLink>
                     </MDBModalFooter>
                   </MDBModalContent>
                 </MDBModalDialog>
