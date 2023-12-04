@@ -23,7 +23,7 @@ function App() {
       <Routes>
 
      
-          <Route path="/theJewelleryShop/home" element={<Homepage />} />
+          <Route path="/theJewelleryShop/" element={<Homepage />} />
           <Route path="/theJewelleryShop/shop" element={<Shop />} />
           <Route path="/theJewelleryShop/products/:id" element={<SingleProduct />}/>
           <Route path="/theJewelleryShop/shop/:filter" element={<ShopFilter />} />
