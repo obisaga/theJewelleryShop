@@ -35,7 +35,7 @@ const UserProvider= ({children}) => {
             setSuccess(true);
             setError("");
 
-            navigate('/home');
+            navigate('/theJewelleryShop/');
 
             } else if (response.status === 400){
                 console.log(response.status)
@@ -59,7 +59,7 @@ const UserProvider= ({children}) => {
         sessionStorage.removeItem('token')
         setUser(null)
         setToken(null)
-        navigate("/home");
+        navigate("/theJewelleryShop/");
     }
 
 
